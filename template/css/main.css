@@ -1,0 +1,49 @@
+/* 
+    Document   : main
+    Created on : 12/03/2013, 12:35:16 PM
+    Author     : jbaires
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+caption {
+	font-size: 1.8em;
+	margin: 1em;
+}
+.opciones {
+	text-align: right;
+}
+
+#tablePagination { 
+	background-color: #1A1A1A; 
+    font-size: 0.8em; 
+    padding: 10px;
+    height: 32px;
+    color: #FFF;
+}
+          
+#tablePagination_paginater { 
+	margin-left: auto; 
+    margin-right: auto;
+}
+          
+#tablePagination img { 
+	padding: 0px 2px; 
+}
+          
+#tablePagination_perPage { 
+	float: left; 
+}
+#tablePagination_perPage select {
+	width: 65px;
+	margin-right: 15px;
+}
+          
+#tablePagination_paginater { 
+	float: right; 
+}
+
+#tablePagination_paginater input {
+	width: 50px;
+	margin: 0 15px;
+}
